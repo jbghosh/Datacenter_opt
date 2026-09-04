@@ -35,7 +35,6 @@ The final D-Wave schedules achieve a mean tracking RMSE of 0.511 kW, a mean sche
 This is the recommended offline workflow. It uses only archived inputs and completed results; it does not submit optimization jobs.
 
 ```bash
-cd Datacenter_Code_repository
 python -m pip install -r requirements.txt
 jupyter notebook 05_publication_analysis_and_plots.ipynb
 ```
