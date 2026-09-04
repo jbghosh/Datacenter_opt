@@ -1,0 +1,74 @@
+{
+  "fingerprint": {
+    "time_limit_s": 30.0,
+    "event_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "sha256": {
+      "benchmark_spot_jobs_dvfs.csv": "0b5358cbf88a467d4dedc276f54a586c8d0f97264be0e91cd88a084bbde67da1",
+      "emerald_dvfs_calibration.csv": "59e7f8fc6c3cda00e1a6510536e125b9a05a327fce1bfaf5509407cb65de4985",
+      "event_profiles_long.csv": "6404f20e3e0c8a9b4131d464994458371a2bc820a3c6a54e02a9876b1c8905a5",
+      "revised_data_and_qubo_manifest.json": "9a585aa7bb46eb1d8fe28da6cc534350a96df2640f8b5fdc4c883b1aeb2a8580",
+      "ai_spot_curtailment_dvfs_qubo_core.py": "017670d8269ace84cc2288432439fff71d2d22d1234b167f4c884a9b09eee2e3"
+    }
+  },
+  "sampler": {
+    "python_sampler_class": "LeapHybridSampler",
+    "imported_hybrid_class": "LeapHybridBQMSampler",
+    "solver_name": "hybrid_binary_quadratic_model_version2p",
+    "solver_id": "hybrid_binary_quadratic_model_version2p",
+    "quota_conversion_rate": 1,
+    "maximum_number_of_variables": 1000000,
+    "maximum_number_of_biases": 200000000,
+    "minimum_time_limit_property": [
+      [
+        1,
+        3.0
+      ],
+      [
+        1024,
+        3.0
+      ],
+      [
+        4096,
+        10.0
+      ],
+      [
+        10000,
+        40.0
+      ],
+      [
+        30000,
+        200.0
+      ],
+      [
+        100000,
+        600.0
+      ],
+      [
+        1000000,
+        600.0
+      ]
+    ],
+    "version": "2.4"
+  }
+}

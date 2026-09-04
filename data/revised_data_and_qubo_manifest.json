@@ -1,0 +1,59 @@
+{
+  "config": {
+    "slot_minutes": 15,
+    "event_hours": 6,
+    "n_events": 20,
+    "min_event_separation_hours": 24,
+    "gpu_model": "A100-SXM4-80GB",
+    "job_duration_min_minutes": 90.0,
+    "job_duration_max_minutes": 180.0,
+    "n_jobs_small": 13,
+    "n_jobs_medium": 4,
+    "n_jobs_large": 1,
+    "seed_jobs": 883,
+    "field_cluster_gpus": 256,
+    "dvfs_caps_W": [
+      250,
+      300,
+      350,
+      400
+    ],
+    "throughput_statistic": "minimum",
+    "power_statistic": "mean",
+    "field_flex_fraction": 0.25,
+    "target_fraction_of_envelope": 0.8,
+    "lambda_once": 20.0,
+    "cplex_time_limit_s": 30.0,
+    "cplex_mip_gap": 0.01,
+    "sa_num_reads": 1000,
+    "sa_num_sweeps": 5000,
+    "sa_seed": 20260903
+  },
+  "input_caiso": "/Users/kumarghosh/Desktop/other_projects_till_Jul_5/Energy_mix/GPU_opt/production-and-curtailments-data-2025.xlsx",
+  "input_alibaba_zip": "/Users/kumarghosh/Desktop/other_projects_till_Jul_5/Energy_mix/GPU_opt/clusterdata-master.zip",
+  "input_emerald_zip": "/Users/kumarghosh/Desktop/other_projects_till_Jul_5/Energy_mix/GPU_opt/emerald-ai-demo-may-2025-main.zip",
+  "selected_jobs": 18,
+  "selected_portfolio_total_gpus": 256,
+  "eligible_alibaba_jobs": 908,
+  "dvfs_modes_W": [
+    250,
+    300,
+    350,
+    400
+  ],
+  "field_cluster_power": {
+    "srp_pre_event_mean_kW": 93.33349048375285,
+    "srp_pre_event_median_kW": 93.6461113895833,
+    "dvfs_implied_256gpu_full_power_kW": 94.09777610618391,
+    "field_flexible_envelope_peak_kW": 23.52444402654598
+  },
+  "full_portfolio_400W_mode_energy_kWh": 254.17426631807098,
+  "qubo_variables": 945,
+  "qubo_edges": 419814,
+  "qubo_density": 0.9412025827280065,
+  "zero_schedule_objective_event0": 10.772213614315216,
+  "lambda_sufficient_bound": 15.360000000000003,
+  "lambda_once": 20.0,
+  "equivalence_max_abs_error": 5.684341886080801e-13,
+  "scientific_upgrade": "256-GPU field-calibrated A100 portfolio; candidate-specific DVFS power and conservative completion-time inflation from Emerald AI measurements; 25% peak flexible-power envelope anchored to the Nature Energy field demonstration; exact 256-GPU aggregate portfolio."
+}

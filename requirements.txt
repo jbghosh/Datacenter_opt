@@ -1,0 +1,8 @@
+numpy
+pandas
+matplotlib
+openpyxl
+dimod
+dwave-neal
+docplex
+# IBM CPLEX Python API / license is additionally required for CPLEX cells.
