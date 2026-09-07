@@ -51,7 +51,7 @@ Run the notebooks in this order when reconstructing the experiments:
 3. `02B_CPLEX_SA_field_calibrated_testing.ipynb`
 4. `03_DWave_LeapHybridBQM_final_20_events.ipynb`
 5. `04_DWave_postrun_analysis.ipynb`
-6. `05_publication_analysis_and_plots.ipynb`
+6. `publication_figures.ipynb`
 
 The raw CAISO workbook (`production-and-curtailments-data-2025.xlsx`) and Alibaba archive (`clusterdata-master.zip`) are included locally. The Emerald field-artifact archive is retained as `emerald-ai-demo-may-2025-main.zip`.
 
