@@ -21,7 +21,8 @@ The final D-Wave schedules achieve a mean tracking RMSE of 0.511 kW, a mean sche
 | `02B_CPLEX_SA_field_calibrated_testing.ipynb` | Final CPLEX and simulated-annealing benchmark workflow. |
 | `03_DWave_LeapHybridBQM_final_20_events.ipynb` | D-Wave Leap Hybrid 20-event campaign. Requires D-Wave credentials and consumes Leap quota. |
 | `04_DWave_postrun_analysis.ipynb` | Post-run schedule extraction and physical audit. |
-| `05_publication_analysis_and_plots.ipynb` | Plotting-only notebook that regenerates publication figures without solver calls. |
+| `05_publication_analysis_and_plots.ipynb` | Plotting-only notebook that regenerates publication figures (older version). |
+| `publication_figures.ipynb` | Plotting-only notebook that regenerates Final publication figures without solver calls. |
 | `ai_spot_curtailment_dvfs_qubo_core.py` | Shared field-calibrated scheduling/QUBO implementation. |
 | `ai_spot_curtailment_dwave_hybrid.py` | D-Wave Hybrid campaign helper. |
 | `data/` | Frozen plotting inputs and completed solver results for notebook 05. |
